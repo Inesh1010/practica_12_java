@@ -47,7 +47,6 @@ public class PlanetsGUI implements ActionListener {
         for (Planet p : Planet.values()) {
             planetItem = new JMenuItem(p.name());
             planetItem.addActionListener(this);
-            //planetNames.add(planetItem);
             planets.add(planetItem);
             planetNames.add(planetItem);
         }
