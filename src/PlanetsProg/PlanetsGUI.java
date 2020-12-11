@@ -10,14 +10,10 @@ public class PlanetsGUI implements ActionListener {
 
     private JFrame frame;
     private JPanel panel;
-
     private JMenuBar menuBar;
-
     private JMenu planets;
-
     private ArrayList<JMenuItem> planetNames = new ArrayList<>();
     private JMenuItem planetItem;
-
     private JLabel title;
     private JLabel forceLabel;
 
@@ -26,7 +22,6 @@ public class PlanetsGUI implements ActionListener {
 
         frame = new JFrame();
         panel = new JPanel();
-
         frame = new JFrame();
         panel = new JPanel();
         menuBar = new JMenuBar();
